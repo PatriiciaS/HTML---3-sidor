@@ -1,0 +1,47 @@
+h1{
+    color:red;
+}
+
+/* Alla med samma id */
+
+#title{
+    color:yellow;
+}
+
+/*Alla med samma klassnamn */
+
+.title{
+    color:var(--clr-primary);
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+
+    /*margin: 10px, 25px, 10px, 25px;
+
+    margin: 10px, 25px;*/
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.link{
+    transform: translateX(-0.75em);
+    transition: transform 2s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    padding: 5px 10px;
+    opacity: 0.4;
+}
+
+
+nav{
+    margin: 30px;
+}
+
+div{
+
+}
